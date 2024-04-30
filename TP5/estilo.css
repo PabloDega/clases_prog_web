@@ -1,0 +1,13 @@
+body{
+    background-color: lightgreen;
+    margin: 0;
+}
+#contenedor{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.titulo{
+    font-size: 2em;
+}
