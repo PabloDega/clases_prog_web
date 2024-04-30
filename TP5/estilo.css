@@ -11,3 +11,36 @@ body{
 .titulo{
     font-size: 2em;
 }
+#box1{
+    background-color: gray;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    border: solid 8px black;
+}
+#columna1{
+    background-color: red;
+    width: 30%;
+}
+#columna2{
+    background-color: orange;
+    width: 70%;
+}
+.columna{
+    display: inline-block;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.imagenPorcentual{
+    background-color: lightseagreen;
+    display: inline-block;
+    padding: 20px;
+    width: 20%;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 2.5%;
+}
+.galeriaPorcentual{
+    font-size: 0;
+}
