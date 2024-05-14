@@ -62,3 +62,14 @@ footer{
     font-size: 12px;
     font-weight: 600;
 }
+galeria{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 0;
+}
+galeria img{
+    width: 20%;
+    margin: 2.5%;
+}

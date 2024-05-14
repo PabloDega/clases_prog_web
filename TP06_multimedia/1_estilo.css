@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+#contenedor1{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+#cargando{
+    width: 100px;
+}
+#alien{
+    width: 300px;
+}
+#contenedor2{
+    background-color: orange;
+    text-align: center;
+}
+#contenedor2 img{
+    width: 150px;
+}
+#contenedor3 img{
+    width: 150px;
+}
+#edicion1{
+    filter: grayscale(100%);
+}
+#edicion2{
+    filter: blur(3px);
+}
+#edicion3{
+    filter: invert(100%);
+}
+#edicion4{
+    filter: sepia(100%);
+}
+#edicion5{
+    filter: opacity(40%);
+}
+#contenedor4{
+    text-align: center;
+    background-color: lightpink;
+}
+#contenedor4 img{
+    width: 350px;
+    border: solid 4px blue;
+    padding: 0;
+    border-radius: 50%;
+}
+#contenedor5{
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+}
+#contenedor5 img{
+    width: 250px;
+}
+#comportamiento1{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#comportamiento1:hover{
+    filter: grayscale(100%);
+}
+#comportamiento2{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#comportamiento2:hover{
+    transform: scale(75%);
+}
+#comportamiento3{
+    cursor: pointer;
+    transition: 1s;
+}
+#comportamiento3:hover{
+    /* transform: rotatez(360deg); */
+    transform: rotate3d(1, 1, 1, 45deg);
+}
