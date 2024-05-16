@@ -72,7 +72,9 @@ body{
 }
 #comportamiento3{
     cursor: pointer;
-    transition: 1s;
+    transition: 1s;  
+
+    
 }
 #comportamiento3:hover{
     /* transform: rotatez(360deg); */
