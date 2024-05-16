@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contenedor{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+header h1{
+    margin: 0;
+}
+nav{
+    background-color: gray;
+    padding: 16px;
+    box-sizing: border-box;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
