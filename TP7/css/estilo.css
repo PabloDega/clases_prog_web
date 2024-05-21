@@ -23,3 +23,49 @@ nav a{
     text-decoration: none;
     padding: 0 10px;
 }
+form{
+    padding: 25px;
+}
+form span{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 16px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+form input{
+    display: block;
+    padding: 5px;
+    border-radius: 7px;
+    border: solid 3px blueviolet;
+    transition: 0.3s;
+    margin-bottom: 16px;
+}
+form input:focus{
+    background-color: lightgray;
+}
+form span.genero label, form span.genero input{
+    display: inline;
+}
+form span.cursos label, form span.cursos input{
+    display: inline;
+}
+form select{
+    margin-bottom: 16px;
+}
+form button{
+    display: inline-block;
+    padding: 7px;
+    margin-top: 16px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 0;
+}
+form textarea{
+    display: block;
+}

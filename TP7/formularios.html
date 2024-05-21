@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es-AR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
     <div id="contenedor">
         <header>
@@ -17,6 +19,58 @@
             <a href="">Productos</a>/
             <a href="">Contacto</a>
         </nav>
+        <form action="" method="get">
+            <span>Dejanos tus datos para responderte a la brevedad</span>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+            <label for="dni">DNI</label>
+            <input type="text" name="dni" id="dni" minlength="7" maxlength="8">
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo">
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" id="telefono" value="+54 9 11 ">
+            <label for="nacimiento">Fecha de Nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            <label for="doc">Documentacion</label>
+            <input type="file" name="doc" id="doc">
+            <span class="genero">Genero <br>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="femeninio" value="femeninio">
+            <label for="femeninio">Femeninio</label>
+            <input type="radio" name="genero" id="otro" value="otro">
+            <label for="otro">Otro</label>
+            <input type="radio" name="genero" id="noresp" value="noresp">
+            <label for="noresp">Prefiero no responder</label></span>
+            <label for="nacionalidad">Nacionalidad</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="" selected disabled>Seleccione de la lista</option>
+                <option value="argentina">Argentina</option>
+                <option value="venezolana">Venezolana</option>
+                <option value="peruana">Peruana</option>
+                <option value="paraguaya">Paraguaya</option>
+            </select>
+            <span class="cursos">
+                Cursos de su interes <br>
+                <input type="checkbox" name="web" id="web" value="web">
+                <label for="web">Programación Web</label>
+
+                <input type="checkbox" name="reparacion" id="reparacion" value="reparacion">
+                <label for="reparacion">Reparación de PC</label>
+
+                <input type="checkbox" name="sueldos" id="sueldos" value="sueldos">
+                <label for="sueldos">Liquidación de Sueldos</label>
+            </span>
+
+            <span>Consulta</span>
+            <textarea name="consulta" id="consulta" cols="30" rows="10" maxlength="256" placeholder="Limite de 256 caracteres"></textarea>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
     </div>
 </body>
+
 </html>
