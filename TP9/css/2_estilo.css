@@ -7,5 +7,37 @@ body{
     margin: 0 auto;
 }
 ul{
-    
+    list-style-type: square;
+    background-color: blue;
+    color: white;
+    padding: 32px;
+    width: 500px;
+}
+ul li{
+    background-color: lightblue;
+    padding: 8px;
+    margin-left: 32px;
+    color: darkblue;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+table th, table td{
+    padding: 8px;
+    border: 1px solid lightgrey;
+}
+table th{
+    background-color: orangered;
+    color: white;
+}
+table tr:nth-child(odd){
+    background-color: rgb(230, 230, 230);
+}
+table tr:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+table tr{
+    transition: 0.4s;
 }
