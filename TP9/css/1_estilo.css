@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contenedor{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#sombraTxt1{
+    font-size: 42px;
+    font-weight: 600;
+    text-shadow: -6px 6px 4px rgba(0, 0, 0, 0.4);
+}
+#sombraTxt2{
+    font-size: 42px;
+    font-weight: 600;
+    text-shadow: 0 0 5px red, 3px 3px 4px orange;
+}
+.box{
+    display: inline-block;
+    width: 300px;
+    background-color: orange;
+    padding: 16px;
+    margin: 16px;
+}
+#sombraCaja1{
+    box-shadow: 6px 6px 3px 10px rgba(0, 0, 0, 0.4);
+}
