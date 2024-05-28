@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+h2{
+    margin: 0;
+}
+.caja{
+    width: 500px;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin: auto;
+}
+#texto1{
+    background-color: #00cccc;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+    text-align-last: right;
+}
+#texto1 span{
+    text-decoration: underline;
+    text-decoration-color: #005d5d;
+    text-decoration-thickness: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#texto2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #b87793;
+    line-height: 150%;
+    letter-spacing: 3px;
+}
+#texto3{
+    background-color: #00cc00;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#texto3:hover{
+    white-space: wrap;
+}
+#texto4{
+    font-family: "Josefin Sans", sans-serif;
+}
+#texto5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ccFF12;
+    letter-spacing: 2px;
+    line-height: 120%;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: solid 3px #4b5e04;
+}
+#texto5 h2{
+    column-span: all;
+    margin: 16px 0;
+}
