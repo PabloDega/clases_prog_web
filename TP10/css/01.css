@@ -27,3 +27,56 @@ body{
 #txt2 span{
     font-size: 2em;
 }
+#txt3{
+    color: red;
+    font-size: 2rem;
+}
+#txt3 span{
+    font-size: 1rem;
+}
+#txt4{
+    color: green;
+    font-size: 150%;
+}
+#txt4 span{
+    font-size: 150%;
+}
+#txt5{
+    color: purple;
+    font-size: 4vw;
+}
+#txt5 span{
+    font-size: 2vw;
+}
+#caja2{
+    background-color: aqua;
+    width: 18em;
+}
+#caja3{
+    background-color: yellow;
+    width: 30%;
+}
+#caja4{
+    background-color: chocolate;
+    width: 30vw;
+}
+#caja5{
+    background-color: magenta;
+    width: 50%;
+    max-width: 300px;
+}
+#caja6{
+    background-color: cyan;
+    width: 50%;
+    min-width: 300px;
+}
+#caja7{
+    background-color: brown;
+    height: 100px;
+    width: 50%;
+}
+#subcaja7{
+    background-color: green;
+    height: 50px;
+    width: 70%;
+}
