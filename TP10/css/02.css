@@ -30,9 +30,20 @@ h1, h2{
 #absoluta{
     background-color: #1500ff;
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
 }
 #contRelativo{
     position: relative;
+}
+#pegajoso{
+    position: sticky;
+    top: 0;
+    background-color: #1500ff;
+    z-index: 1;
+}
+#fija{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
