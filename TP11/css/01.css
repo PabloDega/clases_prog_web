@@ -8,10 +8,37 @@ body{
 }
 #box{
     background-color: yellow;
+    overflow: auto;
 }
 .caja{
     height: 200px;
     width: 200px;
     background-color: green;
     margin: 1em;
+    float: left;
+}
+article{
+    border: 2px solid black;
+    width: 50%;
+    padding: 1em;
+    overflow: auto;
+}
+article img{
+    float: right;
+    margin: 1em;
+}
+.overflow{
+    width: 500px;
+    height: 150px;
+    border: 2px solid black;
+    margin-bottom: 2em;
+}
+#over1{
+    overflow: hidden;
+}
+#over2{
+    overflow: scroll;
+}
+#over3{
+    overflow: visible;
 }
