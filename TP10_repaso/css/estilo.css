@@ -1,0 +1,7 @@
+nav{
+    background-color: aqua;
+}
+nav a{
+    padding: 1em;
+    display: block;
+}

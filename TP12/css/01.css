@@ -1,0 +1,78 @@
+.box{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+}
+#boxes{
+    background-color: lightpink;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+#box4{
+    background-color: green;
+    flex-grow: 1;
+    order: -10;
+}
+#box8{
+    background-color: blue;
+    flex-grow: 1;
+    order: -20;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    padding: 1em;
+}
+/* nav{
+    display: flex;
+    background-color: orange;
+    justify-content: flex-end;
+    flex-direction: row;
+} */
+nav a:hover{
+    background-color: darkorange;
+}
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+}
+.productos{
+    display: flex;
+    width: 150px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.oferta{
+    color: red;
+    transform: scale(120%);
+    order: -1;
+}
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    gap: 1em;
+}
+#contenedor header img{
+    width: 90px;
+}
+#contenedor main img{
+    width: 200px;
+}

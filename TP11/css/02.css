@@ -58,3 +58,71 @@ body{
     height: 140px;
     margin-top: 10px;
 }
+#espacio{
+    display: block;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+#espacio img{
+    width: 20%;
+    position:absolute;
+    bottom: 0;
+    left: 40%;
+    transition: 1s;
+}
+#espacio:hover img{
+    bottom: 600px;
+}
+#banner{
+    display: block;
+    width: 300px;
+    height: 600px;
+    position: relative;
+    background-color: cyan;
+    overflow: hidden;
+}
+#banner img{
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+#banner h1{
+    position: absolute;
+    left: -150px;
+    top: 30px;
+    transition: 1s;
+}
+#banner h2{
+    position: absolute;
+    right: -150px;
+    top: 100px;
+    transition: 1s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#banner a{
+    position: absolute;
+    left: -100px;
+    top: 200px;
+    transition: 1s;
+    transition-delay: 1s;
+}
+#banner:hover h1{
+    left: 90px;
+}
+#banner:hover h2{
+    right: 90px;
+}
+#banner:hover a{
+    left: 100px;
+}
+#banner:hover img{
+    opacity: 1;
+}

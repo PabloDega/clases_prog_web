@@ -1,0 +1,82 @@
+#animacion{
+    display: block;
+    width: 200px;
+    height: 300px;
+    background-color: green;
+    animation-name: animacion1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacion1{
+    from{
+        background-color: green;
+        border-radius: 4em;
+    }
+    to{
+        background-color: blue;
+        border-radius: 0;
+        translate: 100px 50px;
+    }
+}
+#load{
+    display: block;
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+#load span{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+#load #loadBars{
+    display: block;
+    width: 320px;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    font-size: 0;
+}
+#load #loadBars .bar{
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background-color: orange;
+    animation-name: loading;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#bar2{
+    animation-delay: 0.1s;
+}
+#bar3{
+    animation-delay: 0.2s;
+}
+#bar4{
+    animation-delay: 0.3s;
+}
+#bar5{
+    animation-delay: 0.4s;
+}
+#bar6{
+    animation-delay: 0.5s;
+}
+#bar7{
+    animation-delay: 0.6s;
+}
+#bar8{
+    animation-delay: 0.7s;
+}
+
+@keyframes loading{
+    75%{
+        height: 2px;
+    }
+    100%{
+        height: 50px;
+    }
+}
