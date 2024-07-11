@@ -76,3 +76,25 @@ nav a:hover{
 #contenedor main img{
     width: 200px;
 }
+#contenedor header{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+#contenedor nav{
+    background-color: green;
+    display: flex;
+    
+    justify-content: center;
+    padding: 0.5em;
+}
+#contenedor main{
+    display: flex;
+    gap: 2em;
+}
+#contenedor footer{
+    background-color: green;
+    padding: 1em;
+}
