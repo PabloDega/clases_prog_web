@@ -31,8 +31,7 @@ console.log(num)
 {
     let num = 13;
     console.log(num);
-    let letra = "A";
-    console.log(letra);
+    let sanMartin = "A";
+    console.log(sanMartin);
 }
 console.log(num);
-console.log(letra);

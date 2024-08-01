@@ -9,4 +9,9 @@ console.table({
     DNI: 30278003,
 });
 
-window.prompt("Ingrese un dato:");
+//window.prompt("Ingrese un dato:");
+
+let clima;
+const zona;
+
+console.log(clima);
