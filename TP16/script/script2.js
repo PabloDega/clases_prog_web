@@ -1,6 +1,6 @@
 let nombre;
 nombre = "Pablo";
-nombre = "Ignacio";
+nombre = 25;
 console.log(nombre);
 
 const apellido = "Deganis";
