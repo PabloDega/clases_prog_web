@@ -6,19 +6,22 @@ function holaMundoDec(){
 }
 holaMundoDec();
 
-// Funcion de expresión
-const holaMundoExp = () => {
+// Funcion de flecha
+let holaMundoExp = () => {
     console.log("Hola mundo (Local/anonima/expresión)");
 }
 holaMundoExp();
 
 // Return
-function calculo(){
-    let suma = 3 + 3;
+function calculo(num1, num2){
+    let suma = num1 + num2;
     return suma;
 }
 
-console.log(calculo())
+let resultado = calculo(2, 6);
+console.log(resultado)
+resultado = calculo(4, 24);
+console.log(resultado)
 
 // Parametros
 function saludar(nombre){
@@ -54,3 +57,16 @@ console.log(resta1);
 const sumador = (a, b) => a + b;
 
 console.log(sumador(5, 6));
+
+// Callback
+
+const sumar = (a, b) => a + b;
+const restar = (a, b) => a - b;
+const multiplicar = (a, b) => a * b;
+const dividir = (a, b) => a / b;
+
+const calculadora = (a, b, cb) => cb(a, b);
+
+console.log(calculadora(21, 7, sumar));
+console.log(calculadora(14, 9, restar));
+console.log(calculadora(3, 52, multiplicar));
