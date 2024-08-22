@@ -1,0 +1,10 @@
+#mouse{
+    display: flex;
+    background-color: orange;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    position: relative;
+}
