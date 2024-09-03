@@ -8,3 +8,45 @@
     font-size: 2em;
     position: relative;
 }
+
+#mouse > span {
+    background-color: white;
+    font-size: 0.8em;
+    padding: 0.5em;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#keyEvents{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: fit-content;
+}
+
+#ui{
+    display: flex;
+    gap: 0.5em;
+}
+#parrafo{
+    width: 300px;
+    height: 200px;
+    overflow-y: scroll;
+    border: 3px solid black;
+    box-sizing: content-box;
+    line-height: 1.5em;
+}
+#parrafo::-webkit-scrollbar{
+    display: none;
+}
+#barraLectura{
+    width: 10px;
+    height: 0px;
+    background-color: blue;
+}
+#barraReferencia{
+    width: 10px;
+    height: 200px;
+    background-color: gray;
+}

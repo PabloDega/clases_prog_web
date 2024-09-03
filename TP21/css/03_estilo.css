@@ -1,0 +1,29 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: darkcyan;
+}
+h1{
+  color: white;
+}
+#cajas{
+  display: flex;
+  gap: 2em;
+}
+h2{
+  margin: 0;
+}
+#formulario{
+  background-color: cyan;
+  padding: 1em;
+}
+#formulario form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+#resultados{
+  background-color: black;
+  padding: 1em;
+  color: cyan;
+}
