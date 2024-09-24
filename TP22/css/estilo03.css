@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightblue;
+  padding: 1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+#distribucion{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  background-color: darkorange;
+  padding: 1em;
+  width: fit-content;
+}
+#distribucion span{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}
+.bloque{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  background-color: gray;
+  width: fit-content;
+  padding: 1em;
+}
+button{
+  padding: 0.5em;
+  cursor: pointer;
+}
+#verOcultar{
+  background-color: aqua;
+}

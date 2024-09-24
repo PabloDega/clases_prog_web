@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modificar elementos HTML</title>
+  <link rel="stylesheet" href="css/estilo03.css">
+</head>
+<body>
+  <h1>Distribución</h1>
+  <div id="distribucion">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <span>
+    <button id="vertical">Vertical</button>
+    <button id="horizontal">Horizontal</button>
+  </span>
+  <h1>Color</h1>
+  <div id="color" class="bloque">
+    Cambiar color de fondo
+    <span>
+      <button id="colorRojo">Rojo</button>
+      <button id="colorVerde">Verde</button>
+    </span>
+  </div>
+
+  <div id="texto" class="bloque">
+    Modificar color y tamaño de texto
+    <span>
+      <button id="textoReducir">-</button>
+      <button id="textoAgrandar">+</button>
+    </span>
+    <span>
+      <input type="color" id="textoColor">
+    </span>
+  </div>
+
+  <h1>Mostrar / Ocultar</h1>
+  <div id="verOcultar" class="bloque">
+    Contenedor que se muestra y se oculta con JS
+  </div>
+  <span>
+    <button id="mostrar">Mostrar</button>
+    <button id="ocultar">Ocultar</button>
+  </span>
+
+  <script src="script/script03.js"></script>
+</body>
+</html>
