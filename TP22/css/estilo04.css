@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: darkslateblue;
+  padding: 1em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.ejercicio{
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 500px;
+}
+.ejercicio h1{
+  font-size: 1.5em;
+  color: darkslateblue;
+}
+.ejercicio input{
+  width: 16em;
+}
+.ejercicio .btn{
+  background-color: darkslateblue;
+  color: white;
+  cursor: pointer;
+  padding: 0.7em;
+  width: fit-content;
+}
+.ejercicio span{
+  display: flex;
+  gap: 1em;
+}
+.ejercicio .salida{
+  border: 2px darkslateblue solid;
+  width: 100%;
+}

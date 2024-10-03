@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios en JS</title>
+  <link rel="stylesheet" href="css/estilo04.css">
+</head>
+<body>
+  <div class="ejercicio" id="ej1">
+    <h1>Saludo personalizado</h1>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+    <span>
+      <div class="btn" id="btnEj1">Saludar</div>
+      <div class="salida" id="salidaEj1">...respuesta</div>
+    </span>
+  </div>
+
+  <div class="ejercicio" id="ej2">
+    <h1>Calculadora de ingredientes</h1>
+    Receta por persona: <br>
+    * 1/2 kilo de papas <br>
+    * 100ml de leche <br>
+    * 30grs de manteca <br>
+    * 1 huevo <br>
+    <input type="text" id="comensales" placeholder="Cantidad de comensales">
+    <span>
+      <div class="btn" id="btnEj2">Calcular</div>
+      <div class="salida" id="salidaEj2">...respuesta</div>
+    </span>
+  </div>
+
+  <div class="ejercicio" id="ej3">
+    <h1>Acumulador de nombres</h1>
+    <input type="text" id="asistentes" placeholder="Nombre del asistente">
+    <span>
+      <div class="btn" id="btnEj3-1">Agregar</div>
+      <div class="btn" id="btnEj3-2">Ver</div>
+      <div class="salida" id="salidaEj3">...respuesta</div>
+    </span>
+  </div>
+
+  <div class="ejercicio" id="ej4">
+    <h1>Carrito de compras</h1>
+    <span>Items: <span id="contador">0</span></span>
+    <span>
+      <div class="producto">
+        Remera roja
+        <div class="btn" id="sumarProd0">Agregar</div>
+      </div>
+      <div class="producto">
+        Remera verde
+        <div class="btn" id="sumarProd1">Agregar</div>
+      </div>
+      <div class="producto">
+        Remera azul
+        <div class="btn" id="sumarProd2">Agregar</div>
+      </div>
+    </span>
+    <span>
+      <div class="btn" id="btnEj4-1">Ver</div>
+      <div class="btn" id="btnEj4-2">Vaciar</div>
+      <div class="salida" id="salidaEj4">...respuesta</div>
+    </span>
+  </div>
+
+  <script src="script/script04.js"></script>
+</body>
+</html>
