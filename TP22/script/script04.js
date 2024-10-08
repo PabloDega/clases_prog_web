@@ -69,3 +69,15 @@ function actualizarContador(){
   });
   document.querySelector("#contador").innerHTML = acumulador;
 }
+
+document.querySelector("#btnEj4-1").addEventListener("click", () => {
+  document.querySelector("#salidaEj4").innerHTML = `Remera roja: ${carrito[0]} <br>
+  Remera verde: ${carrito[1]} <br>
+  Remera azul: ${carrito[2]} `;
+});
+
+document.querySelector("#btnEj4-2").addEventListener("click", () => {
+  carrito = [0, 0, 0];
+  actualizarContador();
+  document.querySelector("#salidaEj4").innerHTML = "";
+})

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkmagenta;
+    padding: 2em;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+h1{
+    border-bottom: 3px solid white;
+    font-size: 1.5em;
+}
+h2{
+    border-bottom: 1px solid black;
+    font-size: 1.3em;
+}
+.caja1{
+    background-color: white;
+    color: black;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+input{
+    padding: 0.3em;
+}
+.btn{
+    padding: 0.7em;
+    background-color: darkmagenta;
+    width: fit-content;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+#errores{
+    position: absolute;
+    top: 3em;
+    right: 3em;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 1em;
+    transition: 1s;
+    opacity: 0;
+    max-width: 400px;
+    cursor: pointer;
+}
+.botonera{
+    display: flex;
+    gap: 1em;
+}
+.registro{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
