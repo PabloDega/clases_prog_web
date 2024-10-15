@@ -49,10 +49,10 @@ input{
     color: white;
     font-weight: 600;
     padding: 1em;
-    transition: 1s;
-    opacity: 0;
     max-width: 400px;
     cursor: pointer;
+    opacity: 0;
+    transition: 1s;
 }
 .botonera{
     display: flex;
