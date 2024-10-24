@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightpink;
+  padding: 2em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+h1{
+  border-bottom: 4px solid darkmagenta;
+  color: darkmagenta;
+}
+#cursos{
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.curso{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  background-color: white;
+  padding: 1em;
+}
+.curso h1{
+  font-size: 1.3em;
+  border: none;
+}
+.curso .btn{
+  cursor: pointer;
+  color: white;
+  background-color: darkmagenta;
+  padding: 0.5em;
+  display: inline-block;
+}
+
+
+#detalles{
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+#detalles h1{
+  font-size: 1.4em;
+  border-bottom-width: 2px;
+}
+#detalles h2{
+  font-size: 1.2em;
+  color: darkmagenta;
+}
+#listaDeAlumnos{
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+#listaDeAlumnos > div{
+  display: flex;
+  flex-direction: column;
+  background-color: lightpink;
+  padding: 1em;
+}
