@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: darkslategray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+#cont{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+}
+#agregarTarea{
+  background-color: darkslategray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em;
+}
+table{
+  border: 2px solid darkslategray;
+  border-collapse: collapse;
+}
+table th, table td{
+  border: 1px solid darkslategray;
+  padding: 0.3em;
+}
+.btn{
+  background-color: gray;
+  padding: 0.5em;
+  width: fit-content;
+  cursor: pointer;
+  font-weight: 600;
+  display: inline-block;
+}
+.btnCompleta{
+  background-color: green;
+  color: white;
+}
+.btnEditar, .btnBorrar{
+  background-color: darkslategray;
+  color: white;
+}
+.btnPendiente{
+  background-color: darkorange;
+  color: white;
+}
