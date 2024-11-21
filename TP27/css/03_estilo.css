@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+  background-color:rgb(165, 165, 165);
+  font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+  border-bottom: 3px solid black;
+}
+.res{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 1em;
+  width: fit-content;
+}
+button{
+  width: fit-content;
+  padding: 0.5em;
+}

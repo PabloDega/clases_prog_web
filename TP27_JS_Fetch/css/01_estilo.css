@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+h1{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+table{
+    border: 3px solid darkblue;
+    border-collapse: collapse;
+}
+table thead{
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}
+table th, table td{
+    border: 1px solid darkblue;
+    padding: 0.3em;
+}

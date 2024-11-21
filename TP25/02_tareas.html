@@ -35,7 +35,25 @@
           </tr> -->
         </tbody>
       </table>
+    </div>
 
+    <div id="cortina">
+      <div id="contModificarTarea">
+        <h2>Modificar Tarea</h2>
+        <span>ID</span>
+        <input type="text" id="modificarID" disabled readonly>
+        <span>Tarea</span>
+        <input type="text" id="modificarTarea">
+        <span>Estado</span>
+        <select id="modificarEstado">
+          <option value="pendiente">Pendiente</option>
+          <option value="completa">Completa</option>
+        </select>
+        <span>
+          <div class="btn" id="btnModifTarea">Modificar</div>
+          <div class="btn" id="btnCancelarModifTarea">Cancelar</div>
+        </span>
+      </div>
     </div>
 
   <script src="script/02_script.js"></script>

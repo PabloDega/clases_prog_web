@@ -83,6 +83,32 @@ function mostrarDatos(){
       mostrarDatos();
     });
   });
+
+  document.querySelectorAll(".btnEditar").forEach((boton) => {
+    boton.addEventListener("click", (e) => {
+      modificarTarea(e.target.dataset.id);
+    });
+  });
 }
 
 mostrarDatos();
+
+function modificarTarea(id){
+  document.querySelector("#cortina").style.display = "flex";
+  document.querySelector("#modificarID").value = tareas[id].id;
+  document.querySelector("#modificarTarea").value = tareas[id].tarea;
+  document.querySelector("#modificarEstado").value = tareas[id].estado;
+}
+
+document.querySelector("#btnCancelarModifTarea").addEventListener("click", () => {
+  document.querySelector("#cortina").style.display = "none";
+})
+
+document.querySelector("#btnModifTarea").addEventListener("click", () => {
+  let id = document.querySelector("#modificarID").value;
+  tareas[id].tarea = document.querySelector("#modificarTarea").value;
+  tareas[id].estado = document.querySelector("#modificarEstado").value;
+  localStorage.setItem("tareas", JSON.stringify(tareas));
+  mostrarDatos();
+  document.querySelector("#cortina").style.display = "none";
+})

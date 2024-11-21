@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  min-height: 100vh;
+}
+h1{
+  border-bottom: 2px solid black;
+}
+nav{
+  display: flex;
+  gap: 1em;
+}
+.btn{
+  cursor: pointer;
+  background-color: lightcyan;
+  padding: 0.7em;
+}
+main{
+  flex-grow: 1;
+}
+main h2{
+  border-bottom: 1px solid black;
+}
+footer{
+  background-color: lightcyan;
+  padding: 2em;
+}
