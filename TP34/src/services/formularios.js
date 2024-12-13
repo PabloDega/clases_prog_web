@@ -5,10 +5,10 @@ export const insertarDatosDeFormulario = async (datos) => {
   // instalar modulo (npm) mysql2
   try{
     const connection = await mysql2.createConnection({
-      host: "mysql-profepablo.alwaysdata.net",
-      user: "387164",
-      password: "compartir406",
-      database: "profepablo_programacion"
+      host: "",
+      user: "",
+      password: "",
+      database: ""
     });
     await connection.query(`INSERT INTO clase (nombre, telefono) VALUES ("${datos.nombre}", "${datos.telefono}")`);
   } catch(error) {
